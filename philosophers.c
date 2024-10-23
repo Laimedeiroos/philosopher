@@ -43,8 +43,5 @@ void *philosopher_life(void *arg)
         rest_and_think(philo);
     }
     
-    while (!philo->data->simulation_ended && 
-       (philo->meals_eaten < philo->data->max_meals || philo->data->max_meals == -1))
-
     return (NULL);
 }
